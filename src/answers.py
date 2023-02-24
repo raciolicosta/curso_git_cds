@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly.express as px
+import numpy as np
 import streamlit as st
 
 def rd1_question_9(df):
