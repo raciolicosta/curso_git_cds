@@ -45,6 +45,3 @@ def rd1_question_13(df1):
     )
 
     return None
-
-def rd1_question_14(df):
-    return None
