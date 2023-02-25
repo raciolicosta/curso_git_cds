@@ -29,19 +29,24 @@ def rd1_question_13(df1):
     df_grouped = df1.groupby('owner').agg(
     qty = pd.NamedAgg('id', 'count')
     ).sort_values('qty').reset_index()
-
     ax = sns.barplot(
         data=df_grouped,
         x = 'owner',
         y = 'qty'
     )
-
     ax.bar_label(ax.containers[0])
-
     ax.set(
         title = 'Quantidade de Motos por tipo de dono',
         xlabel = 'Tipo de Dono',
         ylabel = 'Quantidade de donos'
     )
-
     return None
+<<<<<<< HEAD
+=======
+
+def rd1_question_14(df):
+    return None
+
+def rd1_question_15(df):
+    return None
+>>>>>>> 35f4ae3689f24c384341426f6795c2bd787a7f63
